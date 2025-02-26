@@ -1,0 +1,27 @@
+server/
+├─ .env
+├─ .gitignore
+├─ controller/
+│  ├─ adminController.js
+│  ├─ facultyController.js
+│  └─ studentController.js
+├─ index.js
+├─ middleware/
+│  └─ auth.js
+├─ models/
+│  ├─ admin.js
+│  ├─ attendance.js
+│  ├─ department.js
+│  ├─ faculty.js
+│  ├─ marks.js
+│  ├─ notice.js
+│  ├─ student.js
+│  ├─ subject.js
+│  └─ test.js
+├─ package-lock.json
+├─ package.json
+├─ Procfile
+└─ routes/
+   ├─ adminRoutes.js
+   ├─ facultyRoutes.js
+   └─ studentRoutes.js
